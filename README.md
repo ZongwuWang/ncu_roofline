@@ -15,10 +15,10 @@
 
 ```bash
 # 克隆仓库
-git clone https://github.com/your_username/your_project.git
-cd your_project
+git clone https://github.com/ZongwuWang/ncu_roofline
+cd ncu_roofline
 
-# 安装主要依赖
+# 安装主要依赖，ncu_profile_simple.py不需要transformers，ncu_roofline_course.py需要transformers和nvtx
 pip install -r requirements.txt
 
 # 安装ncu
